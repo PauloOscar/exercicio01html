@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cadastramento</title>
+
+</head>
+<body>
+    <main>
+        <div class="card">
+          <form class="container">
+              <div class="form-control">
+                  <label for="Nome">Nome</label>
+                  <input id="Nome" required type="text">
+        </div>
+<div class="form-control">
+    <label for="Sobrenome">Sobrenome</label>
+    <input id="Sobrnome" required type="text">
+
+<div class="form-control">
+    <label for="AnoDeNascimento">Ano de Nascimento</label>
+    <input id="AnoDeNascimento" required type="date">
+
+<div class="form-control">
+    <label for="Idade">Idade</label>
+    <input id="Idade" placeholder="Idade calculada">
+
+    <button id="Cadastramento" type="button">Cadastrar</button>
+</form>
+</div>
+<div class="card">
+    <button id="Cadastramento" type="button">limpar</button>
+    <table class="container">
+        <thead>
+            <tr>
+                <th> Nome Completo</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+        <tbody id="ListaNomes">
+       </tbody>
+    </table>   
+</main>  
+<script src=".index.js"></script>
+</body>
+
+</html>
+
+
